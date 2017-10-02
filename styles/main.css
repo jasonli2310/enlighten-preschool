@@ -11,7 +11,7 @@ body {
   padding-top:70px;
   color: #5a5a5a;
   font-family: 'Arbutus Slab', serif;
-  background-color: #DB6061;
+  background-color: #FFFFFF;
 }
 body.privacy-terms {
   background-color: #34495D;
@@ -45,6 +45,8 @@ hr {
   font-size: 20px;
   font-weight: lighter;
   line-height: 1.5;
+  font-family: Georgia;
+  color: inherit;
 }
 
 
@@ -53,7 +55,7 @@ hr {
 .navbar{
   height: 70px;
   background-color: rgba(255, 255, 255, 0.8);
-  border: none;
+  border-bottom: rgba(128,128,128, 0.3) solid;
 }
 .nav-text{
   font-size: 16px;
@@ -98,6 +100,7 @@ hr {
 }
 .section-first-text{
   padding-top: 65px;
+  font-family: Arial;
 }
 .section-second-text{
   padding-top: 35px;
@@ -248,7 +251,8 @@ blockquote cite:before {
   background-color: #34495D;
 }
 .grey {
-  background-color: #e9ebee;
+  background-color:
+  ;
 }
 .red {
   background-color: #DB6061;
@@ -263,6 +267,9 @@ blockquote cite:before {
 
 /* THEME COLORS
 -------------------------------------------------- */
+.white-text {
+  color: #FFFFFF;
+}
 .light-green{
   background-color: #80e27e;
 }
